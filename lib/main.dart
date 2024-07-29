@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme:ThemeData.dark().copyWith(
        scaffoldBackgroundColor: backgroundColor
       ),
-      home: Responsive(mobileScreenlayout: MobileScreenLayout(), webScreenLayout: WebScreenLayout()),
+      home: const Responsive(mobileScreenlayout: MobileScreenLayout(), webScreenLayout: WebScreenLayout()),
     );
   }
 }
